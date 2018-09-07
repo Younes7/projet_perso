@@ -4,16 +4,16 @@ import "./App.css";
 
 // Components
 import Navbar from "./components/layout/Navbar";
-// import Landing from "./components/layout/Landing";
+import Landing from "./components/layout/Landing";
 
 class App extends Component {
   render() {
     return (
       <Router>
         <div className="App">
-          <h1>Welcome to React</h1>
+          {/* <h1>Welcome to React</h1> */}
           <Navbar />
-          {/* <Route exact path="/" component={Landing} /> */}
+          <Route exact path="/" component={Landing} />
         </div>
       </Router>
     );

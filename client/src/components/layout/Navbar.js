@@ -3,11 +3,9 @@ import React, { Component } from "react";
 class Navbar extends Component {
   render() {
     return (
-      <nav className="navbar navbar-expand-sm navbar-dark bg-dark mb-4">
+      <nav className="navbar navbar-expand-sm navbar-dark bg-primary mb-4">
         <div className="container">
-          <a className="navbar-brand" href="/">
-            React App
-          </a>
+          <a className="navbar-brand" href="/">React App</a>
           <button
             className="navbar-toggler"
             type="button"
@@ -20,23 +18,16 @@ class Navbar extends Component {
           <div className="collapse navbar-collapse" id="mobile-nav">
             <ul className="navbar-nav mr-auto">
               <li className="nav-item">
-                <a className="nav-link" href="/">
-                  {" "}
-                  Profil
-                </a>
+                <a className="nav-link" href="/">{" "}Profil{" "}</a>
               </li>
             </ul>
 
             <ul className="navbar-nav ml-auto">
               <li className="nav-item">
-                <a className="nav-link" href="/">
-                  Sign Up
-                </a>
+                <a className="nav-link" href="/">Inscription</a>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="/">
-                  Login
-                </a>
+                <a className="nav-link" href="/">Connexion</a>
               </li>
             </ul>
           </div>
