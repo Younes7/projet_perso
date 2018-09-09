@@ -1,10 +1,11 @@
-import React, { Component } from "react";
+import React, { Component } from 'react';
+import { Link } from 'react-router-dom';
 
-class Landing extends Component {
+class Home extends Component {
   render() {
     return (
       <div className="landing-image">
-        <div className="banner landing text-light">
+        <div className="banner landing text-dark">
           <div className="container">
             <div className="row">
               <div className="col-md-12 text-center">
@@ -15,20 +16,15 @@ class Landing extends Component {
                   Ut enim ad minim veniam, quis nostrud exercitation ullamco
                   laboris nisi ut aliquip ex ea commodo consequat.
                 </p>
-                <hr />
-                <a href="/" className="btn btn-lg btn-info mr-2">
-                  Inscription
-                </a>
-                <a href="/" className="btn btn-lg btn-light">
-                  Connexion
-                </a>
+                <Link to="/register" className="btn btn-lg mr-2 text-light colorP">Inscription</Link>
+                <Link to="/login" className="btn btn-lg btn-light">Connexion</Link>
               </div>
             </div>
           </div>
         </div>
       </div>
     );
-  }
-}
+  };
+};
 
-export default Landing;
+export default Home;

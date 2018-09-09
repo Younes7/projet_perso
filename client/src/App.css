@@ -1,26 +1,28 @@
 img {
   width: 100%;
-}
+};
 
 .landing-image {
   position: relative;
-  background: url("./img/unnamed.png") no-repeat;
+  /* background: url("./img/unnamed.png") no-repeat; */
   background-size: cover;
   background-position: center;
   height: 100vh;
   margin-top: -24px;
   margin-bottom: -50px;
-}
+};
 
 .landing {
   padding-top: 80px;
-}
+};
 
 .banner {
-  background-color: rgba(9, 69, 235, 0.7);
+  background-color:white;
   position: absolute;
   top: 0;
   left: 0;
   width: 100%;
   height: 100%;
-}
+};
+
+
